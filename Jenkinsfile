@@ -21,7 +21,7 @@ pipeline {
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'master', credentialsId: 'gitHub', url: 'https://github.com/Ashfaque-9x/register-app'
+                    git branch: 'master', credentialsId: 'gitHub', url: 'https://github.com/tayadepss/cicd-test.git'
                 }
         }
 
