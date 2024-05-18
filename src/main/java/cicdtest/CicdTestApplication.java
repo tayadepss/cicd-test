@@ -14,7 +14,7 @@ public class CicdTestApplication {
 	}
 	@GetMapping
 	public String getMsg() {
-		return "Hi......successfull.";
+		return "Hi......successfull nice";
 	}
 
 }
