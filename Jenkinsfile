@@ -89,12 +89,5 @@ pipeline {
                }
           }
        }
-
-	    stage("Cleanup Workspace1"){
-                steps {
-                cleanWs()
-                }
-        }
-
     }
 }
