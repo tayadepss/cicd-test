@@ -5,7 +5,7 @@ pipeline {
         maven 'Maven3'
     }
     environment {
-	    APP_NAME = "cicd-test"
+	    APP_NAME = "cicd-test-pipeline"
             RELEASE = "1.0.0"
             DOCKER_USER = "tayadepss"
             DOCKER_PASS = 'dockerHub'
