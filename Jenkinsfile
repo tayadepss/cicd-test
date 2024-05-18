@@ -97,7 +97,9 @@ pipeline {
                 }
             }
        }
-	     post {
+
+    }
+		     post {
         cleanup {
             /* clean up our workspace */
             deleteDir()
@@ -111,5 +113,4 @@ pipeline {
             }
         }
 	     }
-    }
 }
